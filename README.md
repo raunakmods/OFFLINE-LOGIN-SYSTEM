@@ -11,5 +11,4 @@ JUST A MODIFIED VERSION OF LOGIN FORM
 USE DEX PROTECTOR TO PROTECT TITLE ANIMATION TEXT FROM LEECHERS
 
 BYE❤️
-
-https://user-images.githubusercontent.com/55938607/118672846-2b4a1a00-b816-11eb-9cf8-90f2dffdaaee.mp4
+https://user-images.githubusercontent.com/55938607/118673114-60566c80-b816-11eb-8d5d-a1c57ea9111d.mp4
