@@ -12,13 +12,14 @@ USE DEX PROTECTOR TO PROTECT TITLE ANIMATION TEXT FROM LEECHERS
 
 # HOW TO ADD IN YOUR MODs
 XML CODE
+```
 <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.RaunakMods.main.MainActivity">
      <intent-filter>
          <action android:name="android.intent.action.MAIN"/>
          <category android:name="android.intent.category.LAUNCHER"/>
      </intent-filter>
 </activity>
-
+```
 On AndroidManifest.xml, remove <action android:name="android.intent.action.MAIN"/> from the game's activity
 If you don't remove <action android:name="android.intent.action.MAIN"/> from the game's activity, your menu will not launch. AndroidManifest.xml can ONLY contain one <action android:name="android.intent.action.MAIN"/>
 near the end of application tag </application>, add your main activity above it. "com.RaunakMods.main.MainActivity" is your main activity
