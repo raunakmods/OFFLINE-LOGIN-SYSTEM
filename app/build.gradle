@@ -3,7 +3,6 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 30
     defaultConfig {
-        applicationId "com.RaunakMods.login"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
@@ -31,7 +30,10 @@ android {
         }
     }
     ndkVersion = '22.0.7026061'
-    dependencies {
-        implementation fileTree(dir: 'libs', include: ['*.jar'])
-    }
+}
+
+//dependencies must be placed below 'android' brackets to get it work on AIDE
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //implementation("com.squareup.okhttp3:okhttp:4.7.2")
 }
